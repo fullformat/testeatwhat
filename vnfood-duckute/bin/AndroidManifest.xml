@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.towd.vnfood"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/angihomnay"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.towd.vnfood.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.towd.vnfood.MonanListActivity" >
+        </activity>
+        <activity android:name="com.towd.vnfood.sildemenu.MonanListFavoriteActivity" >
+        </activity>
+        <activity android:name="com.towd.vnfood.MonanSingleActivity" >
+        </activity>
+        <activity
+            android:name="com.towd.vnfood.sildemenu.Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.towd.vnfood.sildemenu.FavoriteDish"
+            android:label="@string/title_activity_favorite_dish" >
+        </activity>
+        <activity
+            android:name="com.towd.vnfood.sildemenu.AnGiHomNay"
+            android:label="@string/title_activity_an_gi_hom_nay" >
+        </activity>
+        <activity
+            android:name="com.towd.vnfood.sildemenu.DieuCanBiet"
+            android:label="@string/title_activity_dieu_can_biet" >
+        </activity>
+        <activity
+            android:name="com.towd.vnfood.sildemenu.GioiThieu"
+            android:label="@string/title_activity_gioi_thieu" >
+        </activity>
+        <activity
+            android:name="com.towd.vnfood.sildemenu.CungPhatTrien"
+            android:label="@string/title_activity_cung_phat_trien" >
+        </activity>
+    </application>
+
+</manifest>

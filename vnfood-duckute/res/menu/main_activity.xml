@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/view_marked"
+          android:icon="@android:drawable/star_on"
+          android:title="@string/view_marked"
+          android:showAsAction="ifRoom|withText" />
+</menu>

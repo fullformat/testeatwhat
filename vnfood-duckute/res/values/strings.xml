@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ăn gì hôm nay?</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="view_marked">Món ưa thích</string>
+
+    <string-array name="setting_array">
+        <item>Danh mục</item>
+        <item>Ăn gì hôm nay?</item>
+        <item>Món ưa thích</item>
+        <item>Điều cần biết</item>
+        <item>Giới thiệu</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/danhsach</item>
+        <item>@drawable/angihomnay</item>
+        <item>@drawable/yeuthich</item>
+        <item>@drawable/dieucanbiet</item>
+        <item>@drawable/gioithieu</item>
+    </array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <color name="maucam">#FF4000</color>
+    <color name="mautrang">#FFFFFF</color>
+    <color name="mauden">#000000</color>
+    <color name="mauxam">#D8D8D8</color>
+    <color name="maudo1">#e86875</color>
+    <color name="maudo2">#dd2234</color>
+    <color name="maucam3">#D76D03</color>
+
+    <string name="title_activity_search">Tìm kiếm</string>
+    <string name="title_activity_favorite_dish">Món yêu thích</string>
+    <string name="title_activity_an_gi_hom_nay">Ăn gì hôm nay?</string>
+    <string name="title_activity_dieu_can_biet">Điều cần biết</string>
+    <string name="title_activity_gioi_thieu">Giới thiệu</string>
+    <string name="title_activity_cung_phat_trien">Cùng phát triển</string>
+
+    <color name="maucam4">#E79102</color>
+
+</resources>
